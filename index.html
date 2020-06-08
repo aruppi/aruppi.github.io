@@ -1,328 +1,293 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-
-    <title>	Aruppi: Anime, Manga y Japón</title>
-
-    <!-- Meta Data -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Aplicación creada con el fin de proporcionar toda la información de tus animes, mangas y novelas ligeras favoritas, con la posibilidad de guardarlas en la nube.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aruppi</title>
+    <meta name="description" content="Aplicación creada con el fin de proporcionar toda la información de tus animes, mangas y novelas ligeras favoritas">
     <meta name="keywords" content="Anime, Manga, Japón, Anitakume, Android, Kotlin, App, Play Store, Otaku, Otakus, Mangakas, Radio, K-Pop, J-Pop, Podcast, Wallpapers, Wallpaper, Vídeos">
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
-    <!-- Web Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli%7CRubik:400,400i,500,700">
-
-    <!-- ======= Bootstrap CSS ======= -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
-    <!-- ======= Font Awesome CSS ======= -->
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-
-    <!-- ======= Owl Carousel CSS ======= -->
-    <link rel="stylesheet" href="assets/plugins/owlcarousel/owl.carousel.min.css">
-
-    <!-- ======= Magnific Popup CSS ======= -->
-    <link rel="stylesheet" href="assets/plugins/magnific-popup/magnific-popup.min.css">
-
-    <!-- ======= Main Stylesheet ======= -->
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <!-- ======= Custom Stylesheet ======= -->
-    <link rel="stylesheet" href="assets/css/custom.css">
-
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-
 <body>
-
-    <header class="header fixed-top">
-        <div class="fixed-top header-main style--one text-white">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-3 col-sm-4 col-8">
-                        <div class="logo">
-                            <a href="index.html">
-                                <img class="default-logo" src="assets/img/inicio/logo_white.png" data-rjs="2" alt="">
-                                <img class="sticky-logo" src="assets/img/inicio/sitckylogo.png" data-rjs="2" alt="">
-                            </a>
+<div class="menu-toggle">
+    <div class="icon"></div>
+</div>
+<div class="main-menu">
+    <div class="contant-info">
+        <div><a href="mailto:infoaruppi@gmail.com">infoaruppi@gmail.com</a></div>
+    </div>
+    <div class="menu-links">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Equipo</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Escribe</a></li>
+        </ul>
+    </div>
+    <div class="social-media">
+      <div class="social-link-holder"><a href="https://play.google.com/store/apps/details?id=com.jeluchu.aruppi">Play Store</a></div>
+      <div class="social-link-holder"><a href="https://appgallery7.huawei.com/#/app/C101896801">App Gallery</a></div>
+      <div class="social-link-holder"><a href="https://t.me/AruppiApp">Telegram</a></div>
+    </div>
+</div>
+<nav class="container-fluid cnav">
+    <div class="row">
+        <div class="col">
+            <div class="logo-holder">
+                <a href="index.html"><img class="logo" src="images/logo.svg" alt="Aruppi"></a>
+            </div>
+        </div>
+        <div class="col text-right">
+            <div class="social-media">
+                <div class="social-link-holder"><a href="https://play.google.com/store/apps/details?id=com.jeluchu.aruppi">Play Store</a></div>
+                <div class="social-link-holder"><a href="https://appgallery7.huawei.com/#/app/C101896801">App Gallery</a></div>
+                <div class="social-link-holder"><a href="https://t.me/AruppiApp">Telegram</a></div>
+            </div>
+        </div>
+    </div>
+</nav>
+<header class="container-fluid header">
+    <div class="mouse-scroll"></div>
+    <div class="row">
+        <div class="col">
+            <div class="extra-lg-text">
+                <span>Todo Japón</span><br>
+                <span>en una sola</span><br>
+                <span class="other-color">aplicación</span>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container-fluid box-content">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="boxy c1-color">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="title">SECCIONES Y<br>FUNCIONES</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-12 col-lg-5">
+                        <div class="text">
+                            <ul>
+                                <li>Calendario semanal</li>
+                                <li>Últimos episodios</li>
+                                <li>Próximos estrenos</li>
+                                <li>Últimas noticias</li>
+                            </ul>
                         </div>
                     </div>
-
-                    <div class="col-lg-9 col-sm-8 col-4">
-                        <div class="main-menu d-flex align-items-center justify-content-end">
-                            <ul class="nav align-items-center">
-                                <li class="current-menu-parent menu-item-has-children">
-                                    <a href="#">Inicio</a>
-                                </li>
-                                <li class="current-menu-parent menu-item-has-children">
-                                    <a href="contact.html">Contacta</a>
-                                </li>
+                    <div class="col-xs-12 col-sm-6 col-md-12 col-lg-7">
+                        <div class="text">
+                            <ul>
+                                <li>Podcast</li>
+                                <li>Radio</li>
+                                <li>Rankings</li>
+                                <li>Vídeos</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
-
-    <section class="banner bg-overlay" data-bg-img="assets/img/inicio/intro.jpg">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="banner-content text-white text-center">
-                        <h1>Todo Japón<br/>
-                        en una sola aplicación</h1>
-                        <p>Disfruta toda la información de tus series de animación japonesa, de tus mangas favoritos o de la cultura japonesa tan molona de forma gratuita</p>
-                        <a href="https://play.google.com/store/apps/details?id=com.jeluchu.aruppi" target="_blank" class="banner-btn btn btn-white">
-                          <span>¡Descárgala ya!</span>
-                        </a>
-                    </div>
+        <div class="col-md-6">
+            <div class="boxy img-box">
+                <div class="img"><img src="images/img1.png" alt=""></div>
+                <div class="bottom-text">
+                    <div class="link">VER MÁS DETALLES</div>
+                    <div class="text">Acerca de las secciones</div>
                 </div>
+                <a href="sections.html" class="project-link-full"></a>
             </div>
         </div>
-        <img src="assets/img/shapes/slider-shape.svg" class="svg wave-shape" alt="">
-    </section>
-
-
-    <section class="pb-90 feature-style-two">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6 single-feature-wrapper">
-                    <div class="single-feature text-center">
-                        <div class="image">
-                            <img src="assets/img/inicio/neko.png" data-rjs="2" width="35%">
-                        </div>
-                        <div class="content">
-                            <h3>Anime</h3>
-                            <p>Descubre series nuevas, conoce los próximos estrenos y guarda tus favoritos</p>
-                        </div>
+    </div>
+</div>
+<div class="container-fluid box-content">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="boxy primary-color">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="title">IDEA PRINCIPAL<br>Y ELABORACIÓN</h1>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 single-feature-wrapper">
-                    <div class="single-feature text-center">
-                        <div class="image">
-                            <img src="assets/img/inicio/manga.png" data-rjs="2" width="35%">
-                        </div>
-                        <div class="content">
-                            <h3>Manga</h3>
-                            <p>Lee tus mangas favoritos, descubre nuevos géneros o nuevas obras que desconocías</p>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-12 col-lg-5">
+                        <div class="text">
+                            <ul>
+                                <li>Nacimiento</li>
+                                <li>Orígenes</li>
+                                <li>Diseños</li>
+                                <li>Desarrollo</li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 single-feature-wrapper">
-                    <div class="single-feature text-center">
-                        <div class="image">
-                            <img src="assets/img/inicio/japan.png" data-rjs="2" width="35%" >
-                        </div>
-                        <div class="content">
-                            <h3>Cultura Japonesa</h3>
-                            <p>Disfruta de los podcast de Anitakume o escucha la radio de K-Pop o J-Pop</p>
+                    <div class="col-xs-12 col-sm-6 col-md-12 col-lg-7">
+                        <div class="text">
+                            <ul>
+                                <li>Tecnologías usadas</li>
+                                <li>Futuro</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
-    <section class="pt-120 pb-120 section-pattern ov-hidden" data-bg-img="assets/img/section-pattern/about-pattern.png">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-7">
-                    <div class="section-title">
-                        <h3>Sobre la App</h3>
-                        <h2>Acercando Japón<br>a los hispano hablantes</h2>
-                        <p>A lo largo de los años hemos visto muchas aplicaciones relacionadas con el anime o el manga, pero la mayoría de ellas no estaban disponibles en castellano, de ese modo se nos ocurrió la idea de realizar una aplicación completamente en Español y que englobase toda la cultura japonesa</p>
-                    </div>
-
-                    <div class="about-nav-tab">
-                        <ul class="nav nav-tabs" role="tablist">
-                            <li class="nav-items">
-                                <a class="nav-link active" data-toggle="tab" href="#mission" role="tab" aria-selected="true">Aruppi</a>
-                            </li>
-                            <li class="nav-items">
-                                <a class="nav-link" data-toggle="tab" href="#vission" role="tab" aria-selected="false">Otras</a>
-                            </li>
-                        </ul>
-
-                        <div class="tab-content">
-                            <div class="tab-pane fade show active" id="mission" role="tabpanel">
-                                <p>Apoyamos el contenido que crea cada uno de los mangakas, y su esfuerzo. Nosotros dejamos claro que nuestra aplicación solo quiere acercar esta cultura a toda la gente hispano hablante, por ello <b>no poseemos ni almacenamos ningún tipo de contenido en nuestros servidores, desarrollamos de manera independiente sin estar asociados con ninguno de los proveedores de contenido, únicamente contenemos enlaces a páginas de terceros de los cuales no tenemos control sobre ellos.</b> </p>
-                                <ul class="list-unstyled list-check">
-                                    <li><i class="fa fa-check" aria-hidden="true"></i> Una app libre de anuncios molestos</li>
-                                    <li><i class="fa fa-check" aria-hidden="true"></i> Una app totalmente gratuita</li>
-                                </ul>
-                                <a href="https://play.google.com/store/apps/details?id=com.jeluchu.aruppi" target="_blank" class="btn"><span>¡Descárgala ya!</span></a>
-                            </div>
-
-                            <div class="tab-pane fade" id="vission" role="tabpanel">
-                                <p>Aunque las comparaciones son odiosas, nosotros como buenos amantes de la cultura japonesa, estábamos cansados de tener que descargar varias aplicaciones para disfrutar de todo el contenido relacionado con Japón, es por ello que desistimos de descargar varias aplicaciones relacionadas entre sí gastanto más espacio en nuestro dispositivo y cansándonos de dichas apps.</p>
-
-                                <ul class="list-unstyled list-check">
-                                    <li><i class="fa fa-check" aria-hidden="true"></i> Otras apps contienen anuncios molestos</li>
-                                    <li><i class="fa fa-check" aria-hidden="true"></i> No agrupan todo el contenido de esta cultura</li>
-                                </ul>
-
-                                <a href="https://play.google.com/store/apps/details?id=com.jeluchu.aruppi" target="_blank" class="btn"><span>¡COMIENZA YA EN ARUPPI!</span></a>
-                            </div>
-                        </div>
-                    </div>
+        <div class="col-md-6">
+            <div class="boxy img-box">
+                <div class="img"><img src="images/img2.png" alt=""></div>
+                <div class="bottom-text">
+                    <div class="link">VER MÁS DETALLES</div>
+                    <div class="text">Conoce más acerca de Aruppi</div>
                 </div>
-                <div class="col-lg-5 video-area mt-50 mt-lg-0">
-                    <img src="assets/img/inicio/trailer.png" data-rjs="2" alt="">
-                    <a href="https://www.youtube.com/watch?v=LdfYmCR5xxs" target="_blank" class="vdo-btn"><img src="assets/img/icons/play.svg" class="svg" alt=""> Ver tráiler</a>
-                </div>
+                <a href="aruppi.html" class="project-link-full"></a>
             </div>
         </div>
-    </section>
-
-    <section class="pt-120 pb-120 section-pattern" data-bg-img="assets/img/section-pattern/service-pattern.png">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="section-title">
-                        <h3>Algunas características</h3>
-                        <h2>Todo en uno, <br>
-                        diversas características <br>
-                        para una cultura</h2>
-                        <p>Quizás la versión inicial de nuestra aplicación no sea la mejor de todas, pero iremos puliéndola y mejorándola poco a poco para que sea la mejor aplicación</p>
+    </div>
+</div>
+<div class="container-fluid box-content">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="boxy default-color">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="title">Aruppi<br>Powers</h1>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="row mt-40 mt-lg-0">
-                        <div class="col-sm-6 single-service-wrapper">
-                            <div class="single-service text-center">
-                                <div class="icon">
-                                    <img src="assets/img/icons/service-1.png" data-rjs="2" alt="">
-                                </div>
-                                <div class="content">
-                                    <h4>En Emisión</h4>
-                                    <p>Comprueba que series se han emitido en el día, además de ver su ficha</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 single-service-wrapper">
-                            <div class="single-service text-center">
-                                <div class="icon">
-                                    <img src="assets/img/icons/service-2.png" data-rjs="2" alt="">
-                                </div>
-                                <div class="content">
-                                    <h4>Animes</h4>
-                                    <p>Toda la información de cada anime, imágenes, tráiler, personajes, etc</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 single-service-wrapper">
-                            <div class="single-service text-center">
-                                <div class="icon">
-                                    <img src="assets/img/icons/service-3.png" data-rjs="2" alt="">
-                                </div>
-                                <div class="content">
-                                    <h4>Podcast/Radio</h4>
-                                    <p>Escucha el programa semanal de Anitakume o radio en directo de K-Pop/J-Pop</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 single-service-wrapper">
-                            <div class="single-service text-center">
-                                <div class="icon">
-                                    <img src="assets/img/icons/service-4.png" data-rjs="2" alt="">
-                                </div>
-                                <div class="content">
-                                    <h4>Multimedia</h4>
-                                    <p>Podras disfrutar de los mejores wallpapers para tu móvil o vídeos de YouTube</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="pt-120 pb-70 gradient-bg">
-        <div class="container">
-            <div class="row align-items-center">
-
-                <div class="col-xs-6 col-md-6 col-sm-6">
-                    <div class="single-counter text-center text-white">
-                        <h2>¿Algún error en la app?</h2>
-                    </div>
-                </div>
-
-                <div class="col-xs-6 col-md-6 col-sm-6">
-                    <div class="single-counter text-center text-white">
-                      <a href="mailto:infoaruppi@gmail.com?Subject=Erroes%20en%20la%20aplicación" target="_blank" class="banner-btn btn btn-white">
-                        <span>Contáctanos</span>
-                      </a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer bg-light section-pattern footer-bg" data-bg-img="assets/img/section-pattern/footer-pattern.png">
-        <div class="footer-bottom">
-            <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="copyright-text text-center">
-                            <span><a href="#">Aruppi</a> &copy; Copyright 2020 · Todos los derechos reservados</span>
+                        <div class="text">
+                            <ul>
+                                <li>API REST</li>
+                                <li>APP MÓVIL</li>
+                                <li>SOPORTE TÉCNICO</li>
+                                <li>BETATESTING</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
-
-    <a href="#" class="back-to-top position-fixed">
-        <div class="back-toop-tooltip"><span>Ir a arriba</span></div>
-        <div class="top-arrow"></div>
-        <div class="top-line"></div>
-    </a>
-
-    <!-- ======= jQuery Library ======= -->
-    <script src="assets/js/jquery.min.js"></script>
-
-    <!-- ======= Bootstrap Bundle JS ======= -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-
-    <!-- =======  Mobile Menu JS ======= -->
-    <script src="assets/js/menu.min.js"></script>
-
-    <!-- ======= Waypoints JS ======= -->
-    <script src="assets/plugins/waypoints/jquery.waypoints.min.js"></script>
-
-    <!-- ======= Counter Up JS ======= -->
-    <script src="assets/plugins/waypoints/jquery.counterup.min.js"></script>
-
-    <!-- ======= Owl Carousel JS ======= -->
-    <script src="assets/plugins/owlcarousel/owl.carousel.min.js"></script>
-
-    <!-- ======= Isotope JS ====== -->
-    <script src="assets/plugins/isotope/isotope.pkgd.min.js"></script>
-
-    <!-- ======= Magnific Popup JS ======= -->
-    <script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-    <!-- ======= Countdown JS ======= -->
-    <script src="assets/plugins/countdown/countdown.min.js"></script>
-
-    <!-- ======= Retina JS ======= -->
-    <script src="assets/plugins/retinajs/retina.min.js"></script>
-
-    <!-- ======= Google API ======= -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjkssBA3hMeFtClgslO2clWFR6bRraGz0"></script>
-
-    <!-- ======= Main JS ======= -->
-    <script src="assets/js/main.js"></script>
-
-    <!-- ======= Custom JS ======= -->
-    <script src="assets/js/custom.js"></script>
+        <div class="col-md-6">
+            <div class="boxy img-box">
+                <div class="img"><img src="images/img3.png" alt=""></div>
+                <div class="bottom-text">
+                    <div class="link">VER MÁS DETALLES</div>
+                    <div class="text">¡Potencia tus poderes!</div>
+                </div>
+                <a href="aruppipowers.html" class="project-link-full"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid default-content">
+    <div class="row">
+        <div class="col">
+            <div class="lg-text">
+                <span>Tuu tuu ruuu</span><br>
+                <span>Aruppiriin</span><br>
+                <span class="other-color">API REST</span></div>
+            <div class="normal-text">
+                <p>
+                  Hemos comenzado a levantarnos poco a poco desde el lanzamiento de la aplicación,<br>
+                  y con ello hemos lanzado diversas mejoras a lo largo del camino.<br>
+                  Si eres desarrollador te invitamos a colaborar en esas mejoras
+                </p>
+            </div>
+            <div class="btn-holder">
+                <a href="https://github.com/aruppi/aruppi-api" class="cr-btn primary">VER EN GITHUB</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid clients-section">
+    <div class="row">
+        <div class="col">
+            <div class="lg-text">
+                <span>APOYAMOS</span><br>
+                <span>EL ANIME LEGAL</span>
+              </div>
+              <div class="normal-text">
+                  <p>
+                      Nuestro objetivo es dar a conocer toda la cultura nipona en una sola aplicación,<br>
+                      sabemos el duro trabajo que hacen las distribuidoras y editoriales en estos tiempos,<br>
+                      es por eso que queremos desarrollar un nuevo apartado en la app para apoyarlos y que<br>
+                      además podáis acceder a sus tiendas on-line para consumir sus productos, fomentar<br>
+                      y apoyar ese trabajo que hacen día a día
+                  </p>
+              </div>
+            <div class="clients-logos">
+                <div class="logo-holder"><a href="https://www.selecta-vision.com/" target="_blank"><img src="images/client1.png" alt="Selecta Visión"></a></div>
+                <div class="logo-holder"><a href="https://www.normaeditorial.com/" target="_blank"><img src="images/client2.png" alt="Norma Editorial"></a></div>
+                <div class="logo-holder"><a href="http://www.editorialivrea.com/ESP/" target="_blank"><img src="images/client3.png" alt="Editorial Livrea"></a></div>
+                <div class="logo-holder"><a href="https://www.ecccomics.com/" target="_blank"><img src="images/client4.png" alt="ECC Cómics"></a></div>
+                <div class="logo-holder"><a href="https://www.milkywayediciones.com/" target="_blank"><img src="images/client5.png" alt="Milky Way Ediciones"></a></div>
+                <div class="logo-holder"><a href="https://www.crunchyroll.com/es-es" target="_blank"><img src="images/client6.png" alt="Crunchyroll"></a></div>
+                <div class="logo-holder"><a href="https://www.netflix.com/" target="_blank"><img src="images/client7.png" alt="Netflix"></a></div>
+                <div class="logo-holder"><a href="https://www.planetadelibros.com/editorial/planeta-comic/54" target="_blank"><img src="images/client8.png" alt="Planeta Cómic"></a></div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="container-fluid footer">
+    <div class="row">
+        <div class="col">
+            <div class="lg-text">
+                <span>Errores, problemas y</span><br>
+                <span>sugerencias</span>
+            </div>
+            <div class="normal-text">
+                <p>No esperes más, contacta con nosotros<br>escucharemos los problemas relacionados con la app<br>además de escuchar las sugerencias para mejorar</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="contact-info-holder">
+                <div class="title">MÉTODOS DE CONTACTO</div>
+                <div class="contact-info">OFICIALES</div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="contact-info-holder">
+                <div class="title">E-mail</div>
+                <div class="contact-info"><a href="mailto:infoaruppi@gmail.com">infoaruppi@gmail.com</a></div>
+                <div class="social-media">
+                  <div class="social-link-holder"><a href="https://play.google.com/store/apps/details?id=com.jeluchu.aruppi">Play Store</a></div>
+                  <div class="social-link-holder"><a href="https://appgallery7.huawei.com/#/app/C101896801">App Gallery</a></div>
+                  <div class="social-link-holder"><a href="https://t.me/AruppiApp">Telegram</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/anime.min.js"></script>
+<script src="js/scrollreveal.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

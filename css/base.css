@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+  line-height: 1.5;
+  font-size: 18px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+#particles-js {
+  background: #303030;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+
+  width: 100%;
+  height: 100%;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+  position: relative;
+}
+
+#viewContainer {
+  z-index: 100;
+  position: relative;
+
+  width: 90%;
+  max-width: 600px;
+  padding: 1em;
+  border-radius: 2px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding-bottom: 72px;
+}
+
+#mePhoto {
+  margin: auto;
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+#name {
+  margin-top: 0.5em;
+  font-size: 30px;
+  text-align: center;
+}
+
+#work {
+  font-size: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 1em;
+}
+
+.description {
+  text-align: center;
+}
+
+#socialLinks {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-around;
+}
+
+a.mdi {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  transition: color 200ms ease-in-out;
+}
+
+a.mdi:hover {
+  color: #FF5047;
+}
+
+.accent {
+  display: inline;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.accent:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+div.a {
+  text-align: center;
+}
+
+#modal-container {
+  width: 233px;
+  height: 47px;
+
+  position: absolute;
+  bottom: 0;
+
+  text-align: center;
+  align-self: center;
+
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 1.5em;
+  padding: 10px 20px;
+
+  transition: all 200ms ease-in-out;
+}
+
+#modal-container.modal-open {
+  width: 100%;
+  height: 100%;
+
+  background-color: #fafafa;
+  border-radius: 1em;
+}
+
+#close-modal {
+  display: none;
+
+  position: absolute;
+  top: 15px;
+  left: 15px;
+
+  color: black;
+  font-size: 30px;
+}
+
+#projects-button {
+  background-color: transparent;
+  outline: none;
+}
+
+#modal-content {
+  display: none;
+}
+
+#modal-content * {
+  color: #333;
+}
+
+#modal-content.modal-open {
+  padding: 1em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: auto;
+
+  width: 100%;
+  height: 100%;
+}
+
+#monkey-spinner {
+  animation: spin 700ms ease-in-out 1s infinite alternate;
+  width: 80px;
+  height: 80px;
+}
+
+#projectsTitle {
+  font-size: 1.5em;
+}
+
+.project-card {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 1em;
+  margin-top: 1em;
+
+  transition: background-color 200ms ease-in-out;
+}
+
+.project-card:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.project-card a {
+  color: #00b0ff !important;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(-20deg);
+  }
+  to {
+    transform: rotate(380deg);
+  }
+}
+
+@media screen and (max-height: 670px) {
+  .description {
+    display: none;
+  }
+}
